@@ -45,12 +45,26 @@ namespace InvertApp
             Console.WriteLine("Digite el indice de la categoria a editar:");
             int indice = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine($"El valor del índice señalado es: {Repositorio.Enlistar.ListadoCategorias[indice]}\n" +
+            Console.WriteLine($"El valor del índice señalado es: {Repositorio.Enlistar.ListadoCategorias[indice-1].Nombre}\n" +
                 $"Digite el nuevo valor:");
             Categorias categoria = new Categorias(Console.ReadLine());
 
             Repositorio.Enlistar.ListadoCategorias.RemoveAt(indice-1);
             Repositorio.Enlistar.ListadoCategorias.Insert(indice-1, categoria);
+
+            Console.WriteLine("¿Desea seguir editando?\n" +
+                "<Z>SI\n" +
+                "<X>NO");
+            char seguir = Convert.ToChar(Console.ReadLine());
+
+            switch (char.ToLower(seguir))
+            {
+                case 'z':
+                    Eliminar();
+                    break;
+                case 'x':
+                    break;
+            }
         }
         public void Eliminar()
         {
@@ -61,7 +75,7 @@ namespace InvertApp
             Console.WriteLine("Digite el indice de la categoria a eliminar:");
             int indice = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine($"El valor del índice señalado es: {Repositorio.Enlistar.ListadoCategorias[indice]}\n" +
+            Console.WriteLine($"El valor del índice señalado es: {Repositorio.Enlistar.ListadoCategorias[indice-1].Nombre}\n" +
                 $"¿Desea eliminarlo?\n" +
                 "<S>SI\n" +
                 "<N>NO");
@@ -75,6 +89,11 @@ namespace InvertApp
                     Console.ReadKey();
                     break;
                 case 'n':
+                    break;
+                default:
+                    Console.WriteLine("Opcion invalida... pulse cualquier tecla para continuar.");
+                    Console.ReadKey();
+                    Eliminar();
                     break;
             }
 
@@ -94,11 +113,13 @@ namespace InvertApp
         }
         public void Listar()
         {
+            Console.Clear();
+
             int index = 0;
 
             foreach(Categorias categoria in Repositorio.Enlistar.ListadoCategorias)
             {
-                Console.WriteLine($"{index + 1}- {categoria}.");
+                Console.WriteLine($"{index + 1}- {categoria.Nombre}.");
                 index++;
             }
         }

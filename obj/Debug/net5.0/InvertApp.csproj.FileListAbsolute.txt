@@ -3,3 +3,14 @@ C:\Users\jorge\OneDrive - República Digital Educación\Programación I\Invertap
 C:\Users\jorge\OneDrive - República Digital Educación\Programación I\Invertapp\InvertApp\obj\Debug\net5.0\InvertApp.AssemblyInfoInputs.cache
 C:\Users\jorge\OneDrive - República Digital Educación\Programación I\Invertapp\InvertApp\obj\Debug\net5.0\InvertApp.AssemblyInfo.cs
 C:\Users\jorge\OneDrive - República Digital Educación\Programación I\Invertapp\InvertApp\obj\Debug\net5.0\InvertApp.csproj.CoreCompileInputs.cache
+C:\Users\jorge\OneDrive - República Digital Educación\Programación I\Invertapp\InvertApp\bin\Debug\net5.0\InvertApp.exe
+C:\Users\jorge\OneDrive - República Digital Educación\Programación I\Invertapp\InvertApp\bin\Debug\net5.0\InvertApp.deps.json
+C:\Users\jorge\OneDrive - República Digital Educación\Programación I\Invertapp\InvertApp\bin\Debug\net5.0\InvertApp.runtimeconfig.json
+C:\Users\jorge\OneDrive - República Digital Educación\Programación I\Invertapp\InvertApp\bin\Debug\net5.0\InvertApp.runtimeconfig.dev.json
+C:\Users\jorge\OneDrive - República Digital Educación\Programación I\Invertapp\InvertApp\bin\Debug\net5.0\InvertApp.dll
+C:\Users\jorge\OneDrive - República Digital Educación\Programación I\Invertapp\InvertApp\bin\Debug\net5.0\ref\InvertApp.dll
+C:\Users\jorge\OneDrive - República Digital Educación\Programación I\Invertapp\InvertApp\bin\Debug\net5.0\InvertApp.pdb
+C:\Users\jorge\OneDrive - República Digital Educación\Programación I\Invertapp\InvertApp\obj\Debug\net5.0\InvertApp.dll
+C:\Users\jorge\OneDrive - República Digital Educación\Programación I\Invertapp\InvertApp\obj\Debug\net5.0\ref\InvertApp.dll
+C:\Users\jorge\OneDrive - República Digital Educación\Programación I\Invertapp\InvertApp\obj\Debug\net5.0\InvertApp.pdb
+C:\Users\jorge\OneDrive - República Digital Educación\Programación I\Invertapp\InvertApp\obj\Debug\net5.0\InvertApp.genruntimeconfig.cache
