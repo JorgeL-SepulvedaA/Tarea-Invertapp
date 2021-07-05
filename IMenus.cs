@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace InvertApp
 {
-    interface IMetodosMantenimiento
+    interface IMenus
     {
-        void Agregar();
-        void Editar();
-        void Eliminar();
-        void Listar();
-        void Volver();
+        void MostrarMenu();
     }
 }

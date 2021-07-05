@@ -1,0 +1,5 @@
+C:\Users\jorge\OneDrive - República Digital Educación\Programación I\Invertapp\InvertApp\obj\Debug\net5.0\InvertApp.csproj.AssemblyReference.cache
+C:\Users\jorge\OneDrive - República Digital Educación\Programación I\Invertapp\InvertApp\obj\Debug\net5.0\InvertApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jorge\OneDrive - República Digital Educación\Programación I\Invertapp\InvertApp\obj\Debug\net5.0\InvertApp.AssemblyInfoInputs.cache
+C:\Users\jorge\OneDrive - República Digital Educación\Programación I\Invertapp\InvertApp\obj\Debug\net5.0\InvertApp.AssemblyInfo.cs
+C:\Users\jorge\OneDrive - República Digital Educación\Programación I\Invertapp\InvertApp\obj\Debug\net5.0\InvertApp.csproj.CoreCompileInputs.cache
